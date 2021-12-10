@@ -1,0 +1,28 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "node_modules/webpack/bin/webpack.js --watch --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "@ckeditor/ckeditor5-code-block": "^31.1.0",
+        "laravel-mix": "^6.0.0",
+        "laravel-nova": "^1.12.3",
+        "resolve-url-loader": "^4.0.0",
+        "sass": "^1.44.0",
+        "sass-loader": "^12.4.0",
+        "vue-loader": "^15.9.8",
+        "vue-template-compiler": "^2.6.14"
+    },
+    "dependencies": {
+        "@ckeditor/ckeditor5-build-classic": "github:brgmn/brgmn-ckeditor5-build#main",
+        "@ckeditor/ckeditor5-vue2": "^1.0.0",
+        "uuid": "^8.3.2",
+        "vue": "^2.5.0"
+    }
+}
