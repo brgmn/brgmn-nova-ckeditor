@@ -50,7 +50,7 @@ CKEditor::make('Text', 'body')
 
 ### Screenshot
 
-![Full featured CKEditor 5 as Laravel Nova 4.0 Field in Action](https://raw.githubusercontent.com/brgmn/nova-ckeditor/main/static/laravel-nova-4-ckeditor-screenshot.png)
+![Full featured CKEditor 5 as Laravel Nova 4.0 Field in Action](https://raw.githubusercontent.com/brgmn/brgmn-nova-ckeditor/main/static/laravel-nova-4-ckeditor-screenshot.png)
 
 ### Security
 
